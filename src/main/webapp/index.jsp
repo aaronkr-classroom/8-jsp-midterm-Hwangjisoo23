@@ -1,4 +1,5 @@
 <!-- UT-NodeJS 중간고사 -->
+<%@ page contentType="text/html; charset =UTF-8" %>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -25,18 +26,7 @@
 
   <body id="index">
     <!-- HEADER -->
-    <header class="header">
-      <div class="container">
-        <div class="container-left">
-          <!-- 로고 -->
-          <figure class="logo">
-            <a href="/">
-              🚈
-              <h1 class="site-title">
-                <span class="ut-red">UT</span>-NodeJS 중간고사
-              </h1>
-            </a>
-          </figure>
+    <%@ include file="header.jsp"%>
 
           <!-- 메뉴 -->
           <nav class="menu">
@@ -64,11 +54,7 @@
     </main>
 
     <!-- FOOTER -->
-    <footer class="text-center fixed-bottom bg-dark text-bg-dark pt-3">
-      <p class="ut-red">
-        <span class="text-white">&copy; 2023</span> [[[ 학생의 이름과 학번 ]]]
-      </p>
-    </footer>
+   <%@ include file="footer.jsp"%>
 
     <!-- Bootstrap의 JS -->
     <script src="../public/js/bootstrap.bundle.min.js"></script>
