@@ -1,16 +1,16 @@
-<!-- UT-NodeJS 중간고사 -->
+<!-- UT-NodeJS ì¤ê°ê³ ì¬ -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>UT-NodeJS 중간고사 | Contact</title>
+    <title>UT-NodeJS ì¤ê°ê³ ì¬ | Contact</title>
 
-    <!-- 학생 이름과 학번 -->
-    <meta name="author" content="황지수" /> <!-- 이름 추가 -->
-    <meta name="description" content="황지수 - 20231803" /> <!-- 학번 추가 -->
+    <!-- íì ì´ë¦ê³¼ íë² -->
+    <meta name="author" content="í©ì§ì" /> <!-- ì´ë¦ ì¶ê° -->
+    <meta name="description" content="í©ì§ì - 20231803" /> <!-- íë² ì¶ê° -->
 
-    <!-- CSS 파일에 대한 link테그를 수정하십시오 -->
+    <!-- CSS íì¼ì ëí linkíê·¸ë¥¼ ìì íì­ìì¤ -->
     <link href="../public/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="../public/css/style.css" />
     <link
@@ -19,7 +19,7 @@
       href="../public/css/style.small.css"
     />
 
-    <!-- JS 파일에 대한 script테그를 수정하십시오 -->
+    <!-- JS íì¼ì ëí scriptíê·¸ë¥¼ ìì íì­ìì¤ -->
     <script defer src="../public/js/functions.js"></script>
   </head>
 
@@ -28,30 +28,30 @@
     <header class="header">
       <div class="container">
         <div class="container-left">
-          <!-- 로고 -->
+          <!-- ë¡ê³  -->
           <figure class="logo">
             <a href="/">
-              🚈
+              ð
               <h1 class="site-title">
-                <span class="ut-red">UT</span>-NodeJS 중간고사
+                <span class="ut-red">UT</span>-NodeJS ì¤ê°ê³ ì¬
               </h1>
             </a>
           </figure>
 
-          <!-- 메뉴 -->
+          <!-- ë©ë´ -->
           <nav class="menu">
             <a class="menu-item active" name="Contact" href="/register.html"
-              >가입</a
+              >ê°ì</a
             >
           </nav>
 
-          <!-- 반응형 메뉴 버튼 -->
+          <!-- ë°ìí ë©ë´ ë²í¼ -->
           <div id="menu-button">Menu</div>
         </div>
       </div>
     </header>
 
-    <!-- MAIN 페이지 내용 -->
+    <!-- MAIN íì´ì§ ë´ì© -->
     <main class="">
       <div class="container col-xl-10 col-xxl-8 px-4 py-5">
         <div class="row align-items-center g-lg-5 py-3">
@@ -66,10 +66,10 @@
 
           <div class="col-md-10 mx-auto col-lg-5 mb-5">
             
-            <!-- action 속성에서 맞는 파일 경로 입력하세요 -->
+            <!-- action ìì±ìì ë§ë íì¼ ê²½ë¡ ìë ¥íì¸ì -->
             <form
               class="p-4 p-md-5 border rounded-3 bg-light"
-              action="thanks.jsp" <!-- 적절한 경로 입력 -->
+              action="thanks.jsp" <!-- ì ì í ê²½ë¡ ìë ¥ -->
              
               <div class="form-floating mb-3">
                 <input
@@ -144,19 +144,19 @@
                 </div>
               </div>
 
-		<div class="form-floating mb-3">
-			  <input
-			    type="password"
-			    class="form-control"
-			    id="floatingPassword"
-			    name="password"
-			  />
+      <div class="form-floating mb-3">
+           <input
+             type="password"
+             class="form-control"
+             id="floatingPassword"
+             name="password"
+           />
 
-			</div>
+         </div>
               
-			<div class="mb-3">
-			  <button class="w-100 btn btn-lg btn-primary" type="submit">
-			    Register
-			  </button>
-			</div>
-			          
+         <div class="mb-3">
+           <button class="w-100 btn btn-lg btn-primary" type="submit">
+             Register
+           </button>
+         </div>
+                   
